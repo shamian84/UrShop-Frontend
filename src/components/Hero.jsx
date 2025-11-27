@@ -62,7 +62,7 @@ const SquarePopSlider = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-blue-50 via-white to-blue-100 overflow-hidden py-[100px] px-6 md:px-12">
+    <div className="bg-gradient-to-b from-blue-50 via-white to-blue-100 overflow-hidden py-[140px] px-6 md:px-12">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12 max-w-7xl mx-auto relative">
         {/* ---------- LEFT TEXT SECTION ---------- */}
         <div className="lg:w-1/2 text-center lg:text-left px-4 lg:px-0 z-10">
