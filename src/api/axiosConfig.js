@@ -3,7 +3,7 @@
 import axios from "axios";
 
 // Use environment variable for backend URL, fallback to localhost for dev
-const baseURL = import.meta.env.REACT_PUBLIC_API_URL;
+const baseURL = import.meta.env.VITE_API_URL;
 
 // Create Axios instance
 const api = axios.create({
